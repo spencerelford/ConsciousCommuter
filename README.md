@@ -8,21 +8,21 @@ ECCE App Challenge 2017
 Using the App
 ======
 
-####**To access the Web app in browser:**
+**To access the Web app in browser:**
  
 
 
-####**Enter your Commute**
+**Enter your Commute**
 
 
 
-#### **Input your Commute Details**
+**Input your Commute Details**
  
 
-####**View your Commute Report Summary**
+**View your Commute Report Summary**
 
 
-####**Learn More**
+**Learn More**
 
 ----------
 
