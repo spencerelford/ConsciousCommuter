@@ -91,10 +91,16 @@ Caloric Burn associated with Bike commute is a derived from a formula which assu
 Credits
 -------------
 Esri Leaflet Web Map Library: https://esri.github.io/esri-leaflet/
+
 Shiny Web Application Framework by R.Studio: https://shiny.rstudio.com/
+
 ArcGIS Online Web App Templates: https://storymaps.arcgis.com/en/
+
 Fuel Economy and CO2 outputs : http://open.canada.ca/data/en/dataset/98f1a129-f628-4ce4-b24d-6f16bf24dd64
+
 Car Maintanence and Depreciation: http://caa.ca/car_costs/
+
 Charts and Graphics: https://piktochart.com/ , https://logomakr.com/
+
 Icons and Buttons: http://www.flaticon.com/
 
