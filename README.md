@@ -27,7 +27,10 @@ Next enter the number of times this commute is taken. For example, during a typi
 **View your Commute Report Summary**
 
 Once you have refined you commute details, you are ready to view your commute summary. Hit the button below to be presented with an infographic outlining the estimate gas usage, CO2 release and Fuel/maintanence costs accumulated over a single weeks worth of commuting.
-You will also see a column that provides the option to view what a similar commute report would look like if this trip were to be made by bike. There you will be presented with the opportunity to see the addditional health benefits associated with bike commuting by providing estimate caloric burn expected during the trip.
+
+
+**Try out Bike Commuting**
+After generating a weekly commute report, you will now have the chance to examine the savings, and environmental benefits of making the choice to bike instead of drive. Click the Bike Report icon to view estimates of the fuel savings, and caloric burn associated with choosing to ride a bike to your workplace.
 
 
 
