@@ -12,6 +12,7 @@ Using the App
  
  View the live web app by clicking the link below:
  
+https://gwbmcmaster.shinyapps.io/maraudersmapp/ 
 
 
 **Enter your Commute**
@@ -36,8 +37,6 @@ Once you have refined you commute details, you are ready to view your commute su
 After generating a weekly commute report, you will now have the chance to examine the savings, and environmental benefits of making the choice to bike instead of drive. Click the Bike Report icon to view estimates of the fuel savings, and caloric burn associated with choosing to ride a bike to your workplace.
 
 
-
-
 ----------
 About the App
 ======
@@ -46,31 +45,29 @@ About the App
 
 This application utilizes a combination of several open source web services and development platforms.
  * Basemaps and web-map services are generated through the Esri Leaflet API
- * Geocoding services are constructed using the Esri World Geocoder
- * The Commuter Report widgets are developed in the Shiny Package for R, an open source Web Application Framework
+ * Geocoding & Routing services are constructed using the Nominatim API
+ * The Commuter Report widgets are developed in R via the Shiny Package - an open source Web Application Framework
  * The Esri ArcGIS Online story map builder, hosts the web application in a Cascading story map interface
 
 >**R Shiny Web App Server**
- TALK ABOUT HOW R SHINY IS USED
-   * JAVASCRIPT IS INJECTED
-   * ALLOWS FOR ENHANCED CALCULATIONS AND CUSTOMIZATION
-   
-  
+Shiny is a web application framework for R that can turn analyses into interactive web applications with no knowledge requirement of HTML5, CSS3, or JavaScript (JS). However, having some knowledge of these three front-end languages can make your Shiny app even more interactive. This Shiny app has Esri Leaflet and standard Leaflet API as well as custom JS and CSS files injected into the framework, which enables enhanced calculations and customization. Although this is not a full stack (it does not collect data), this app is considered to be both front-end (presentation) and back-end (calculations). 
+
+** Flexible User-Experience (UX) **
+The user can drag the Commute and Bike Commute report panels anywhere on the page for their user-interface preference. 
+
 >**ArcGIS Online**
-The app is hosted within a configured Cascading story map. This configuration allows for the inclusion of supporting media including infographics, images, and dynamic Web Ap panes.
+The app is hosted within a configured Cascading story map. This configuration allows for the inclusion of supporting media including infographics, images, and dynamic Web App panes.
 
 ------
- Known Bugs
+ Known Bug
 ------
-Infrequently, the geocoder search bar requires the user to hit enter up to 3 times before reqgistering an input.
-
 The application requires access to stable internet, poor internet connections can result in failed returns when generating a route or delineating origin/destination pins.
 
 ------
  Assumptions & Calculations
 -------------
-The application utilizes several assumptions to generate estimates of fuel consumption, CO2 output, maintenance costs and caloric burn.
-Estimates are derived from total distance of commute applied against several variables which are attributes of vehicle type and trip frequency.
+The application utilizes several assumptions to generate estimates of fuel consumption, CO2 output, maintenance costs, and caloric burn.
+Estimates are derived from total distance of commute applied against several variables which are attributes of vehicle type and trip frequency. In order for the app to perform interactive calculations, a custom JS file was developed to transfer the interactive total commute distance value from the HTML page into Shiny. 
 Fuel Economies for the 6 different vehicle types are generalized values estimated from 2012 model year cars and are gathered from the Canadian Natural Resources Fuel Economy Guide.
 
   The following fuel Economy estimates are used: 
@@ -83,7 +80,7 @@ SUV|6.38
 Truck|6.38
 Compact|8.93
 
-Fuel costs are a product of fuel economy achieved over the cumulative commute distance for the entire week. Gas costs ($/L - Regular) are updated real time through web scraping and represent actual gas price for that day in the city of Toronto.
+Fuel costs are a product of fuel economy achieved over the cumulative commute distance for the entire week. Gas costs ($/L - Regular) are updated real time through web scraping (rvest & xml2 packages) and represent actual gas price for that day in the city of Toronto.
 
 Maintainence and depreciation factors are estimates derived from CAA formulas (as of 2014) and reflect an estimated 6 cents/L cost. 
 
@@ -94,7 +91,7 @@ Therefore, to calculate the amount of CO2 produced from a gallon of gasoline, th
 Since gasoline is about 87% carbon and 13% hydrogen by weight, the carbon in a gallon of gasoline weighs 5.5 pounds (6.3 lbs. x .87).
 We can then multiply the weight of the carbon (5.5 pounds) by 3.7, which equals 20 pounds of CO2 per gallon or 5.29 lbs per Liter.
 
-Caloric Burn associated with Bike commute is a derived from a formula which assumes an average cycling pace of 10km/hr across the toal dcumulative weekly commute distance. The formula generates an estimate of caloric burn based on an assumed 32 - 38 cal/Km expenditure/
+Caloric Burn associated with Bike commute is derived from a formula, which assumes an average cycling pace of 10km/hr across the total cumulative weekly commute distance. The formula generates an estimate of caloric burn based on an assumed 32 - 38 cal/Km expenditure. 
 
 
 ------
@@ -102,6 +99,8 @@ Caloric Burn associated with Bike commute is a derived from a formula which assu
 Credits
 -------------
 Esri Leaflet Web Map Library: https://esri.github.io/esri-leaflet/
+
+Leaflet Routing & Geocoding: http://www.liedman.net/leaflet-routing-machine/api/
 
 Shiny Web Application Framework by R.Studio: https://shiny.rstudio.com/
 
