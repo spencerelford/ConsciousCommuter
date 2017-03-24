@@ -4,6 +4,7 @@ ECCE App Challenge 2017
 -------------------------------
 ####  Team Members: Anastassios Dardas, Spencer Elford, Karl Chastko
 
+
 ------------------------------------
 Using the App
 ======
@@ -60,8 +61,10 @@ The user can drag the Commute and Bike Commute report panels anywhere on the pag
 The app is hosted within a configured Cascading story map. This configuration allows for the inclusion of supporting media including infographics, images, and dynamic Web App panes.
 
 ------
- Known Bug
+ Known Bugs
 ------
+The application is optimized for Google Chrome, scaling and widget interactivity issues have been known to persist in Mozilla Firefox browsers.
+
 The application requires access to stable internet, poor internet connections can result in failed returns when generating a route or delineating origin/destination pins.
 
 ------
