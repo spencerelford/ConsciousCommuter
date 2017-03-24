@@ -1,5 +1,4 @@
 Conscious Commuter: A Web App by the Marauders Map team
-
 ===================
 -------------------------------
 ####  Team Members: Anastassios Dardas, Spencer Elford, Karl Chastko
