@@ -1,5 +1,5 @@
 Conscious Commuter: A Web App by the Marauders Map team
-ECCE App Challenge 2017
+
 ===================
 -------------------------------
 ####  Team Members: Anastassios Dardas, Spencer Elford, Karl Chastko
