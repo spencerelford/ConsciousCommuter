@@ -1,4 +1,4 @@
-Conscious Commuter: A Web App by the Marauders mAPP team
+Conscious Commuter: A Web App by the Marauders Map team
 ECCE App Challenge 2017
 ===================
 -------------------------------
