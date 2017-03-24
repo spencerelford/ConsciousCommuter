@@ -61,14 +61,15 @@ TALK ABOUT HOW THE STORY MAP IS USED
 The application utilizes several assumptions to generate estimates of fuel consumption, CO2 output, maintenance costs and caloric burn.
 Estimates are derived from total distance of commute applied against several variables which are attributes of vehicle type and trip frequency.
 Fuel Economies for the 6 different vehicle types are generalized values estimated from 2012 model year cars and are gathered from the Canadian Natural Resources Fuel Economy Guide.
+
   The following fuel Economy estimates are used: 
-|  Vehicle |Generalized Fuel Economy (km/L)  |
-|---|---|
-|  Sedan |7.65  |
-|  Van |  7.01|
-|  SUV | 6.38  |
-| Truck  | 6.33  |
-|Compact | 8.93 |
+**Type**|**Fuel Economy(km/L)**
+:-----:|:-----:
+Sedan|7.23
+Van|7.65
+SUV|6.38
+Truck|6.38
+Compact|8.93
 
     
 
