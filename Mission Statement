@@ -1,3 +1,15 @@
 ------------------------------------
 MISSION STATEMENT
 ======
+
+Conscious Commuter is a web application that allows intra-city commuters within the city of Toronto to explore how their daily commute can have
+a large impact over time. Work-Commuting, the process of driving a vehicle (often containing a single occupant) is a primary contributor to congestion
+issues and pollutant release in in major urban centers such as Toronto. 
+Often times, the distance of a typical intra-city commute is well within the bike-able range yet this option is frequently ignored as
+the detrimental effects of a short work commute are thought of as being insignificant.
+This application provides users the opportunity to quantify the cumulative effects of their daily work commute over weekly and annual time scales
+It is hoped that quantifying these effects will empower users to investigate alternative methods of commuting.
+
+In doing so, the app provides the opportunity to explore comparative statistics that would be achieved if the same route was undertaken by bike instead of car.
+By demonstrating the financial, health and environmental benefits of choosing to bike to work instead of drive. The application hopes to
+empower Torontonians to make sustainable commute choices.
