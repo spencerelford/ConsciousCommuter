@@ -32,4 +32,9 @@ different commute habits lead to different impacts.
 The Application consists of two primary components: A Leaflet Web Map API hosted within a R Studio Shiny web application framework and an
 Esri ArcGIS Online Cascading Story Map. 
 
-TALK ABOUT HOW YOU MADE THE R SHINY, ROUTING MACHINE, LEAFLET, STUFF
+As mentioned in the Readme.MD file, Shiny is an interactive web application framework for R. In order to use it, the user must have the latest 
+version of RStudio and install the following packages: Shiny, rvest (web scraper), and xml2 (read HTML tree). For organizational purposes, 
+the architecture of the app is structured in five R Scripts. "Startup.R" is the one listing the necessary R Scripts 
+("App.R", "js.R", "css.R", "scrape.R")  within the relative directory without having the need to manually change to the absolute path. This 
+also starts the app, on both shinyapps.io server and on your computer. "App.R" is the main app with user-interface (UI) and server code that 
+receives variables from "js.R", "css.R", and "scrape.R" to inject JavaScript functionality (i.e. Esri Leaflet API) and CSS aesthetics into the app. 
