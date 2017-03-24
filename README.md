@@ -83,7 +83,7 @@ Therefore, to calculate the amount of CO2 produced from a gallon of gasoline, th
 Since gasoline is about 87% carbon and 13% hydrogen by weight, the carbon in a gallon of gasoline weighs 5.5 pounds (6.3 lbs. x .87).
 We can then multiply the weight of the carbon (5.5 pounds) by 3.7, which equals 20 pounds of CO2 per gallon or 5.29 lbs per Liter.
 
-
+Caloric Burn associated with Bike commute is a derived from a formula which assumes an average cycling pace of 10km/hr across the toal dcumulative weekly commute distance. The formula generates an estimate of caloric burn based on an assumed 32 - 38 cal/Km expenditure/
 
 
 ------
