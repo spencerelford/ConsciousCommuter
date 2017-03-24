@@ -55,6 +55,7 @@ Shiny is a web application framework for R that can turn analyses into interacti
 ** Flexible User-Experience (UX) **
 The user can drag the Commute and Bike Commute report panels anywhere on the page for their user-interface preference. 
 
+
 >**ArcGIS Online**
 The app is hosted within a configured Cascading story map. This configuration allows for the inclusion of supporting media including infographics, images, and dynamic Web App panes.
 
