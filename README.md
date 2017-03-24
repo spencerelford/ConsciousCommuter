@@ -12,7 +12,7 @@ Using the App
  
  View the live web app by clicking the link below:
  
-https://gwbmcmaster.shinyapps.io/maraudersmapp/ 
+https://mcmaster.maps.arcgis.com/apps/Cascade/index.html?appid=7e1909750a134cfc88366ac5080401fa
 
 
 **Enter your Commute**
