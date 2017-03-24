@@ -72,7 +72,17 @@ SUV|6.38
 Truck|6.38
 Compact|8.93
 
-    
+Fuel costs are a product of fuel economy achieved over the cumulative commute distance for the entire week. Gas costs ($/L - Regular) are updated real time through web scraping and represent actual gas price for that day in the city of Toronto.
+
+Maintainence and depreciation factors are estimates derived from CAA formulas (as of 2014) and reflect an estimated 6 cents/L cost. 
+
+CO2 output estimates from the combustion of gasoline is derived from the U.S Department of Energy's Fuel Economy Guide.
+When gasoline burns, the carbon and hydrogen separate. The hydrogen combines with oxygen to form water (H2O), and carbon combines with oxygen to form carbon dioxide (CO2).
+A carbon atom has a weight of 12, and each oxygen atom has a weight of 16, giving each single molecule of CO2 an atomic weight of 44 (12 from carbon and 32 from oxygen).
+Therefore, to calculate the amount of CO2 produced from a gallon of gasoline, the weight of the carbon in the gasoline is multiplied by 44/12 or 3.7.
+Since gasoline is about 87% carbon and 13% hydrogen by weight, the carbon in a gallon of gasoline weighs 5.5 pounds (6.3 lbs. x .87).
+We can then multiply the weight of the carbon (5.5 pounds) by 3.7, which equals 20 pounds of CO2 per gallon or 5.29 lbs per Liter.
+
 
 
 
