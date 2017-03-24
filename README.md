@@ -43,9 +43,13 @@ This application utilizes a combination of several open source web services and 
  * The Esri ArcGIS Online story map builder, hosts the web application in a Cascading story map interface
 
 >**R Shiny Web App Server**
-
+ TALK ABOUT HOW R SHINY IS USED
+   * JAVASCRIPT IS INJECTED
+   * ALLOWS FOR ENHANCED CALCULATIONS AND CUSTOMIZATION
+   
+  
 >**ArcGIS Online**
-
+TALK ABOUT HOW THE STORY MAP IS USED
 
 ------
 Calculations
