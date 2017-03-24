@@ -1,4 +1,5 @@
-Conscious Commuter: An App by Marauders mAPP - ECCE App Challenge 2017
+Conscious Commuter: an app by the Marauders mAPP team
+ECCE App Challenge 2017
 ===================
 -------------------------------
 ####  Team Members: Anastassios Dardas, Spencer Elford, Karl Chastko
@@ -7,33 +8,31 @@ Conscious Commuter: An App by Marauders mAPP - ECCE App Challenge 2017
 Using the App
 ======
 
-####**To install this app:**
+####**To access the Web app in browser:**
  
 
 
-####**Select your House**
+####**Enter your Commute**
 
 
 
-#### **Refine your Estimate**
+#### **Input your Commute Details**
  
+
+####**View your Commute Report Summary**
+
 
 ####**Learn More**
-
-
-####**Find a Dealer**
 
 ----------
 
 
->**Open Data**
- 
+>**Open Data and Software**
 
 
->**Spatial Analysis**
+>**R Shiny Web App Server**
 
-
->**ArcGIS API for Javascript**
+>**ArcGIS Online**
 
 
 ------
