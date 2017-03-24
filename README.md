@@ -32,6 +32,7 @@ Once you have refined you commute details, you are ready to view your commute su
 
 
 **Try out Bike Commuting**
+
 After generating a weekly commute report, you will now have the chance to examine the savings, and environmental benefits of making the choice to bike instead of drive. Click the Bike Report icon to view estimates of the fuel savings, and caloric burn associated with choosing to ride a bike to your workplace.
 
 
