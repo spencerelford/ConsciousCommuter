@@ -36,7 +36,11 @@ About the App
 ======
 
 >**Open Data and Software**
-
+This application utilizes a combination of several open source web services and development platforms.
+ * Basemaps and web-map services are generated through the Esri Leaflet API
+ * Geocoding services are constructed using the Esri World Geocoder
+ * The Commuter Report widgets are developed in the Shiny Package for R, an open source Web Application Framework
+ * The Esri ArcGIS Online story map builder, hosts the web application in a Cascading story map interface
 
 >**R Shiny Web App Server**
 
