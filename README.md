@@ -10,6 +10,8 @@ Using the App
 
 **To access the Web app in browser:**
  
+ View the live web app by clicking the link below:
+ 
 
 
 **Enter your Commute**
