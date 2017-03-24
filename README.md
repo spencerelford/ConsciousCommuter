@@ -26,6 +26,7 @@ Using the App
 
 ----------
 About the App
+======
 
 >**Open Data and Software**
 
