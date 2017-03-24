@@ -63,6 +63,7 @@ Estimates are derived from total distance of commute applied against several var
 Fuel Economies for the 6 different vehicle types are generalized values estimated from 2012 model year cars and are gathered from the Canadian Natural Resources Fuel Economy Guide.
 
   The following fuel Economy estimates are used: 
+  
 **Type**|**Fuel Economy(km/L)**
 :-----:|:-----:
 Sedan|7.23
