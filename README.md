@@ -37,6 +37,7 @@ After generating a weekly commute report, you will now have the chance to examin
 
 
 
+
 ----------
 About the App
 ======
@@ -56,8 +57,14 @@ This application utilizes a combination of several open source web services and 
    
   
 >**ArcGIS Online**
-TALK ABOUT HOW THE STORY MAP IS USED
+The app is hosted within a configured Cascading story map. This configuration allows for the inclusion of supporting media including infographics, images, and dynamic Web Ap panes.
 
+------
+ Known Bugs
+-------------
+Infrequently, the geocoder search bar requires the user to hit enter up to 3 times before reqgistering an input.
+
+The application requires access to stable internet, poor internet connections can result in failed returns when generating a route or delineating origin/destination pins.
 ------
  Assumptions & Calculations
 -------------
