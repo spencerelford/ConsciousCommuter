@@ -65,6 +65,7 @@ The app is hosted within a configured Cascading story map. This configuration al
 Infrequently, the geocoder search bar requires the user to hit enter up to 3 times before reqgistering an input.
 
 The application requires access to stable internet, poor internet connections can result in failed returns when generating a route or delineating origin/destination pins.
+
 ------
  Assumptions & Calculations
 -------------
